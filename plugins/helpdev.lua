@@ -5,7 +5,7 @@ local function run(msg,matches)
 if is_sudo(msg) and matches[1]== "المطورين" then
 local sajody = [[🔴افضل بوت لحماية الكروبات🔴
                   ┌─────────┐
-             ┇ٌٖ بّــะُ้ৡ ﮩ๋͜‏ٖ❁ٱ﴿l﴾ﮩٰٖﮩٰ๋ـ❁رـكوbot
+                     فاير
                   └─────────┘
    اوامر خاصة بالمطورين
  
@@ -53,7 +53,7 @@ local sajody = [[🔴افضل بوت لحماية الكروبات🔴
 
 
                  ┌─────────┐
-             ┇ٌٖ بّــะُ้ৡ ﮩ๋͜‏ٖ❁ٱ﴿l﴾ﮩٰٖﮩٰ๋ـ❁رـكوbot
+                    فاير 
                  └─────────┘
 ]]
 return reply_msg(msg.id, sajody, ok_cb, false)
