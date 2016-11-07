@@ -256,8 +256,7 @@ function create_config( )
     "مطور علوش",
     "قفل المحادثه",
     "وقت",
-    "نشر",
-    "برمجه",
+    "نشر"
     },
     sudo_users = {286155244,278510148,294021751,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -265,7 +264,7 @@ function create_config( )
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/faerbot/faerbot
 
 Our team!
 Alphonse (@Iwals)
