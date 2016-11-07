@@ -2,7 +2,7 @@
 
 [![https://gitter.im/faerbot/faerbot](https://badges.gitter.im/faerbot/faerbot.svg)](https://gitter.im/faerbot/faerbot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU Affero General Public License](https://github.com/faerbot/faerbot/blob/master/LICENSE)**.
+**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/faerbot/faerbot-bot) licensed under the [GNU Affero General Public License](https://github.com/faerbot/faerbot/blob/master/LICENSE)**.
 # Features
 
 * **A powerful antispam system with custom sensitivity for each group**
@@ -245,7 +245,7 @@ chmod +x launch.sh
 ### One command
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
-#https://github.com/yagop/telegram-bot/wiki/Installation
+#https://github.com/faerbot/faerbot-bot/wiki/Installation
 sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/faerbot/faerbot.git -b supergroups && cd faerbot && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
