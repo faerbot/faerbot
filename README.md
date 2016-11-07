@@ -56,7 +56,7 @@
  
 -# Let's install the bot.
 -git clone https://github.com/faerbot/faerbot.git
--cd MEero
+-cd faerbot
 +#6
  chmod +x launch.sh
 +
