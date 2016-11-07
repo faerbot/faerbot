@@ -1,6 +1,6 @@
 -# [MastersDev](https://telegram.me/MastersDev)
 -
--[![https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/MastersDev/MastersDevelpers.svg)](https://gitter.im/MastersDev/MastersDevelpers?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+-[![https://github.com/faerbot/faerbot](https://badges.gitter.im/MastersDev/MastersDevelpers.svg)](https://gitter.im/MastersDev/MastersDevelpers?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 -
 -**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot)**.
 -# Features
@@ -49,13 +49,13 @@
  
 -redis-server
 +#4
-+git clone https://github.com/iqabs/DevProx.git
++git clone https://github.com/faerbot/faerbot.git
 +
 +#5
-+cd DevProx
++cd faerbot
  
 -# Let's install the bot.
--git clone https://github.com/Masterdev2v/MEero.git
+-git clone https://github.com/faerbot/faerbot.git
 -cd MEero
 +#6
  chmod +x launch.sh
@@ -68,7 +68,7 @@
 -To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 -```sh
 -#https://github.com/yagop/telegram-bot/wiki/Installation
--sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/Masterdev2v/MEero.git && cd MEero && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/faerbot/faerbot.git && cd MEero && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 -```
  
 +#8
@@ -84,6 +84,9 @@
 -```
 +تفتح هاذا المسار ./data/config.lua 
    sudo_users = {
+    286155244,
+    278510148,
+    294021751,
 -    0,
      YourID
    }
